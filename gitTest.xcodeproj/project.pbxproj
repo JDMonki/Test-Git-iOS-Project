@@ -14,6 +14,7 @@
 		D1EEE94519DA49FB002C170F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1EEE94419DA49FB002C170F /* Images.xcassets */; };
 		D1EEE94819DA49FB002C170F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EEE94619DA49FB002C170F /* LaunchScreen.xib */; };
 		D1EEE95419DA49FB002C170F /* gitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EEE95319DA49FB002C170F /* gitTestTests.m */; };
+		D1EEE95F19DA4D5B002C170F /* MLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EEE95E19DA4D5B002C170F /* MLTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D1EEE94D19DA49FB002C170F /* gitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1EEE95219DA49FB002C170F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1EEE95319DA49FB002C170F /* gitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTestTests.m; sourceTree = "<group>"; };
+		D1EEE95D19DA4D5B002C170F /* MLTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTest.h; sourceTree = "<group>"; };
+		D1EEE95E19DA4D5B002C170F /* MLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				D1EEE93C19DA49FB002C170F /* AppDelegate.m */,
 				D1EEE93E19DA49FB002C170F /* ViewController.h */,
 				D1EEE93F19DA49FB002C170F /* ViewController.m */,
+				D1EEE95D19DA4D5B002C170F /* MLTest.h */,
+				D1EEE95E19DA4D5B002C170F /* MLTest.m */,
 				D1EEE94119DA49FB002C170F /* Main.storyboard */,
 				D1EEE94419DA49FB002C170F /* Images.xcassets */,
 				D1EEE94619DA49FB002C170F /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1EEE95F19DA4D5B002C170F /* MLTest.m in Sources */,
 				D1EEE94019DA49FB002C170F /* ViewController.m in Sources */,
 				D1EEE93D19DA49FB002C170F /* AppDelegate.m in Sources */,
 				D1EEE93A19DA49FB002C170F /* main.m in Sources */,
